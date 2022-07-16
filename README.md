@@ -1,4 +1,12 @@
-# important_things
+# moveit_ros1
+
+**说明：使用ros melodic和moveit对cr5机械臂进行仿真实验，自己在参考代码基础上实现的功能见[1、说明](https://github.com/Longxiaoze/moviet_ros1#1%E8%AF%B4%E6%98%8E)**
+
+**如果是第一次使用，请先按照[二、安装](https://github.com/Longxiaoze/moviet_ros1#%E4%BA%8C%E5%AE%89%E8%A3%85)进行仿真环境安装，然后将下述两个文件进行替换**
+
+~/catkin_ws/src/CR5_ROS/dobot_description/urdf/cr5_robot.urdf
+
+~/ws_moveit/src/moveit_tutorials/doc/move_group_python_interface/scripts/move_group_python_interface_tutorial_cr5_add_3d_zivid_point_check_load_mesh_tf_new.py
 
 ## 0、运行
 
@@ -760,7 +768,7 @@ orientation: 
 
 ### （2）cr5的控制python代码：
 
-路径：～/ws_moveit/src/moveit_tutorials/doc/move_group_python_interface/scripts/move_group_python_interface_tutorial_cr5_add_3d_zivid_point_check_load_mesh_tf_new.py
+路径：~/ws_moveit/src/moveit_tutorials/doc/move_group_python_interface/scripts/move_group_python_interface_tutorial_cr5_add_3d_zivid_point_check_load_mesh_tf_new.py
 
 #### 代码：（展开可查看）
 
